@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+*:focus{
+    outline:none;
+}
+
+.mark-ava{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+}
+.status-1{
+    width: 550px;
+    border: 1px solid #D0D2D5;
+    border-radius: 10px;
+    padding:10px;
+    padding-bottom: 0 ;
+}
+.status-live img{
+    width: 160px;
+    transition: 0.4s;
+}
+.status-live img:hover{
+
+cursor: pointer;
+}
+
+#input{
+    width: 400px;
+    height:35px;
+    margin-left: 20px;
+    border-radius: 999px;
+
+}
+.status-1-border{
+    border-bottom: 1px solid #D0D2D5;
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.status-1-border img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#btn{
+    padding:10px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    height:30px;
+    border-radius: 10px;
+    border: none;
+    color:white;
+    background-color: #1B74E4;
+}
+
+.status-li-1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.status-li-1{
+    display:flex;
+    align-items: center;
+    
+    width: 520px;
+    
+}
+.delete-btn{
+    float:right;
+    border:none;
+    background-color: white;
+    width: 40px;
+    width:40px;
+    transition: 0.4s;
+}
+.delete-btn:hover{
+    cursor: pointer;
+}
+.status-li{
+    border: 1px solid #D0D2D5;
+    width: 550px;
+    border-radius: 10px;
+    padding:10px
+}
+.status-li-icon{
+    width: 520px;
+    display:flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #D0D2D5;
+    border-top: 1px solid #D0D2D5;
+    
+}
+.status-li-icon div{
+    transition: 0.4s;
+    padding:10px;
+    border-radius: 10px;
+    
+    
+}
+.status-li-icon div:hover{
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+.status-li-comment img{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+.status-li-comment input{
+    width: 470px;
+    height: 30px;
+    border-radius: 999px;
+    border: none;
+    background-color: #F0F2F5;
+    
+    
+}
+.status-li-comment{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.status-li-content{
+    padding-bottom:50px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
